@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="676.0" prefWidth="913.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainSceneController">
+   <children>
+      <Group />
+      <Button layoutX="683.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#guidMode" text="导航模式">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="683.0" layoutY="388.0" mnemonicParsing="false" onMouseClicked="#travelMode" prefHeight="48.0" prefWidth="128.0" text="游览模式">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Circle fill="DODGERBLUE" layoutX="322.0" layoutY="580.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="328.0" layoutY="426.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="328.0" layoutY="353.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="517.0" layoutY="243.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="442.0" layoutY="98.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="174.0" layoutY="203.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="255.0" layoutY="51.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="line_3" endX="9.0" endY="15.0" layoutX="313.0" layoutY="550.0" startX="15.0" startY="-108.99996948242188" />
+      <Line fx:id="line_4" endX="5.0" endY="-148.99996948242188" layoutX="323.0" layoutY="560.0" startX="5.0" startY="-192.0" />
+      <Line fx:id="line_6" endX="10.0" endY="-223.60000610351562" layoutX="333.0" layoutY="570.0" startX="184.0" startY="-312.0" />
+      <Line fx:id="line_7" endX="167.39996337890625" endY="-352.0" layoutX="343.0" layoutY="580.0" startX="114.0" startY="-475.20001220703125" />
+      <Line endX="75.0" endY="-499.6000061035156" layoutX="353.0" layoutY="590.0" startX="-81.79998779296875" startY="-537.2000122070312" />
+      <Line fx:id="line_2" endX="-181.40000915527344" endY="-412.0" layoutX="363.0" layoutY="600.0" startX="-115.79997253417969" startY="-534.0" />
+      <Line fx:id="line_5" endX="1.39996337890625" endY="-230.0" layoutX="333.0" layoutY="570.0" startX="100.5999755859375" startY="-457.0" />
+      <Line fx:id="line_1" endX="-8.60003662109375" endY="5.0" layoutX="323.0" layoutY="560.0" startX="-150.99998474121094" startY="-344.79998779296875" />
+      <Label layoutX="307.0" layoutY="611.0" text="中博湖" />
+      <Label layoutX="353.0" layoutY="418.0" text="图书馆" />
+      <Label layoutX="283.0" layoutY="340.0" text="鼎山" />
+      <Label layoutX="469.0" layoutY="84.0" text="大学生活动中心" />
+      <Label layoutX="87.0" layoutY="181.0" text="计算机学科楼" />
+      <Label layoutX="174.0" layoutY="45.0" text="北区运动场" />
+      <Label layoutX="540.0" layoutY="235.0" text="南区运动场" />
+      <Label layoutX="334.0" layoutY="496.0" text="5" />
+      <Label layoutX="174.0" layoutY="361.0" text="10" />
+      <Label layoutX="189.0" layoutY="106.0" text="5" />
+      <Label layoutX="292.0" layoutY="381.0" text="3" />
+      <Label layoutX="350.0" layoutY="207.0" text="6" />
+      <Label layoutX="312.0" layoutY="77.0" text="4" />
+      <Label layoutX="502.0" layoutY="159.0" text="6" />
+      <Label layoutX="441.0" layoutY="323.0" text="4" />
+   </children>
+</Pane>
